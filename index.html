@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Knowledgepie — Green MRI Contrast</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="media/logo.png" alt="Knowledgepie logo" class="brand-logo">
+        <span class="brand-text">Knowledgepie</span>
+      </a>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-icon nav-toggle-menu" aria-hidden="true">☰</span>
+        <span class="nav-toggle-icon nav-toggle-close" aria-hidden="true">✕</span>
+      </button>
+      <nav id="siteNav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html">News</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="home-banner" aria-label="Featured highlights">
+      <div class="home-banner-track" id="homeBannerTrack">
+        <article class="home-banner-slide is-active" data-slide="0">
+          <img src="media/index/banner1.jpg" alt="Nanotechnology-based MRI contrast research" width="1920" height="1080">
+          <div class="home-banner-overlay">
+            <p class="home-banner-text">Imaging the Future: Nanotechnology-Based MRI Contrast for Safer Diagnosis</p>
+          </div>
+        </article>
+        <article class="home-banner-slide" data-slide="1" hidden>
+          <img src="media/index/banner2.jpg" alt="Xeuj nanoparticle contrast agent" width="1920" height="1080">
+          <div class="home-banner-overlay">
+            <p class="home-banner-text">Xeuj is a patented nanoparticle-based contrast agent, specifically targeting the renal impaired patients where GBCA is banned by FDA</p>
+          </div>
+        </article>
+      </div>
+      <button type="button" class="home-carousel-btn home-banner-prev" id="homeBannerPrev" aria-label="Previous slide">‹</button>
+      <button type="button" class="home-carousel-btn home-banner-next" id="homeBannerNext" aria-label="Next slide">›</button>
+      <div class="home-banner-dots" id="homeBannerDots" role="tablist" aria-label="Banner slides">
+        <button type="button" role="tab" aria-selected="true" aria-controls="homeBannerTrack" data-index="0" class="is-active"></button>
+        <button type="button" role="tab" aria-selected="false" data-index="1"></button>
+      </div>
+    </section>
+
+    <section class="home-section home-intro">
+      <div class="container home-intro-grid">
+        <div class="home-intro-col home-about">
+          <p class="eyebrow">Who we are</p>
+          <h2>Knowledgepie Private Limited</h2>
+          <p class="home-about-lead">Knowledgepie is a biotechnology company focused on innovative medical imaging solutions. The team is developing alternative MRI contrast agents to improve safety, sustainability, and clinical reliability.</p>
+        </div>
+        <div class="home-intro-col home-xeuj">
+          <div class="home-xeuj-card">
+            <p class="eyebrow">Our flagship product</p>
+            <h2>Xeuj</h2>
+            <p>Our flagship product <strong>“Xeuj”</strong> is a patented nanoparticle-based contrast agent, specifically targeting the renal impaired patients where GBCA is banned by FDA.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-mission-tech alt">
+      <div class="container home-mission-tech-grid">
+        <div class="home-mission-tech-copy">
+          <div class="home-pillar">
+            <h3>Mission</h3>
+            <p>At Knowledgepie, our mission is to innovate safer contrast agents for cancer detection and prioritizing patient safety, enhancing diagnostic precision, and redefining global cancer care through advanced research, ethical practices, and collaboration with healthcare professionals.</p>
+          </div>
+          <div class="home-pillar">
+            <h3>Technology</h3>
+            <p>Our developed technology is capped with biocompatible molecules and they form stable aqueous solutions, are non-toxic as certified by GLP and Genotoxicity studies. Synthesis is facile, aqueous, thermo-free, and single-step.</p>
+          </div>
+        </div>
+        <div class="home-mission-tech-visual">
+          <img src="media/logo.png" alt="Knowledgepie innovation" width="400" height="400" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-uniqueness" aria-label="Uniqueness of Xeuj">
+      <div class="container">
+        <h2 class="home-section-title">Uniqueness of Xeuj</h2>
+        <div class="home-uniqueness-grid">
+          <article class="home-unique-card">
+            <div class="home-unique-media">
+              <img src="media/index/environentment%20friendly.jpg" alt="Environment friendly production" width="400" height="300" loading="lazy">
+            </div>
+            <h3>Environment Friendly</h3>
+            <p>It is produced using a green route, which means it is environmentally friendly and has minimal impact on the ecosystem.</p>
+          </article>
+          <article class="home-unique-card">
+            <div class="home-unique-media">
+              <img src="media/index/Advantages%20related%20to%20NSF.jpg" alt="Advantages related to NSF" width="400" height="300" loading="lazy">
+            </div>
+            <h3>Advantages related to NSF</h3>
+            <p>As an iron-based agent, it carries no risk of nephrogenic systemic fibrosis (NSF) unlike Gd-based contrast agents (GBCAs).</p>
+          </article>
+          <article class="home-unique-card">
+            <div class="home-unique-media">
+              <img src="media/index/Make-in-India.jpg" alt="Make in India product" width="400" height="300" loading="lazy">
+            </div>
+            <h3>First &lsquo;Make In India Product&rsquo;</h3>
+            <p>Will be &lsquo;First to market&rsquo; &lsquo;Make in India&rsquo; product in contrast agent market.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-partners alt" aria-label="Investment partners">
+      <div class="container">
+        <h2 class="home-section-title">Our Investment Partners</h2>
+        <div class="home-partners-carousel">
+          <div class="home-partners-track" id="homePartnersTrack">
+            <img src="media/index/partner1.jpg" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner2.jpg" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner3.png" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner4.jpg" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner5.png" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner6.png" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner7.png" alt="Investment partner" width="200" height="120" loading="lazy">
+            <img src="media/index/partner8.jpeg" alt="Investment partner" width="200" height="120" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-applications">
+      <div class="container home-applications-grid">
+        <div class="home-applications-copy">
+          <h2 class="home-section-title">What are the applications of our product?</h2>
+          <ul class="home-applications-list">
+            <li><strong>Magnetic Resonance Imaging (MRI) Enhancement:</strong> Improves visibility and contrast in MRI scans by altering tissue magnetic properties.</li>
+            <li><strong>Detection and Characterization of Tumors:</strong> Crucial for distinguishing tumor tissues from healthy tissue, aiding in diagnosis and treatment planning.</li>
+            <li>Can be used for renal impaired patients also.</li>
+            <li><strong>Theranostics:</strong> Researching for targeted therapy and real-time imaging feedback.</li>
+          </ul>
+        </div>
+        <div class="home-applications-visual">
+          <img src="media/index/applications.png" alt="Applications of Xeuj MRI contrast agent" width="600" height="500" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-videos alt" aria-label="Videos">
+      <div class="container">
+        <h2 class="home-section-title">Watch our journey</h2>
+        <div class="home-videos-carousel" id="homeVideosCarousel">
+          <button type="button" class="home-carousel-btn home-videos-prev" id="homeVideosPrev" aria-label="Previous video">‹</button>
+          <div class="home-videos-viewport">
+            <div class="home-videos-track" id="homeVideosTrack">
+              <div class="home-video-slide is-active" data-youtube-id="">
+                <div class="home-video-embed">
+                  <iframe title="Knowledgepie video 1" data-src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+              </div>
+              <div class="home-video-slide" data-youtube-id="" hidden>
+                <div class="home-video-embed">
+                  <iframe title="Knowledgepie video 2" data-src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="home-carousel-btn home-videos-next" id="homeVideosNext" aria-label="Next video">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-cta" aria-label="Join us">
+      <div class="container home-cta-inner">
+        <h2>Join us in the journey</h2>
+        <a href="contact.html" class="btn primary home-cta-btn">Contact us today</a>
+        <div class="home-stats">
+          <div class="home-stat">
+            <span class="home-stat-value" data-count="2">+2</span>
+            <span class="home-stat-label">Patents</span>
+          </div>
+          <div class="home-stat">
+            <span class="home-stat-value" data-count="12">+12</span>
+            <span class="home-stat-label">Years of Research</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-col footer-social" aria-labelledby="footer-connect-title">
+        <h2 id="footer-connect-title">Connect with us</h2>
+        <div class="social-links" aria-label="Social links">
+          <a class="social-link linkedin" href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6.94 20.5H3.56V9.49h3.38V20.5ZM5.25 8a1.96 1.96 0 1 1 0-3.92 1.96 1.96 0 0 1 0 3.92Zm15.25 12.5h-3.37v-5.35c0-1.28-.03-2.93-1.79-2.93-1.8 0-2.08 1.4-2.08 2.84v5.44H9.9V9.49h3.23v1.5h.05c.45-.85 1.55-1.75 3.2-1.75 3.42 0 4.05 2.25 4.05 5.18v6.08Z" />
+            </svg>
+          </a>
+          <a class="social-link x" href="#" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M18.9 3H22l-6.78 7.75L23 21h-5.58l-4.37-5.67L7.14 21H4.01l7.28-8.33L1 3h5.73l3.93 5.15L18.9 3Zm-1.95 16h1.72L6.8 4.81H5.96L16.95 19Z" />
+            </svg>
+          </a>
+          <a class="social-link instagram" href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.92A3.12 3.12 0 1 1 12 9.12a3.12 3.12 0 0 1 0 6Zm6.15-8.13a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0ZM20.4 8.4a5.4 5.4 0 0 0-1.47-3.82A5.4 5.4 0 0 0 15.1 3.1C13.91 3.05 10.09 3.05 8.9 3.1A5.4 5.4 0 0 0 5.07 4.58 5.4 5.4 0 0 0 3.6 8.4c-.05 1.19-.05 5.01 0 6.2a5.4 5.4 0 0 0 1.47 3.82A5.4 5.4 0 0 0 8.9 19.9c1.19.05 5.01.05 6.2 0a5.4 5.4 0 0 0 3.83-1.47 5.4 5.4 0 0 0 1.47-3.82c.05-1.19.05-5.01 0-6.2Zm-1.94 7.52a3.83 3.83 0 0 1-2.16 2.16c-1.5.6-5.07.46-6.3.46s-4.8.13-6.3-.46a3.83 3.83 0 0 1-2.16-2.16c-.6-1.5-.46-5.07-.46-6.3s-.13-4.8.46-6.3a3.83 3.83 0 0 1 2.16-2.16c1.5-.6 5.07-.46 6.3-.46s4.8-.13 6.3.46a3.83 3.83 0 0 1 2.16 2.16c.6 1.5.46 5.07.46 6.3s.13 4.8-.46 6.3Z" />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <nav class="footer-col footer-links" aria-labelledby="footer-links-title">
+        <h2 id="footer-links-title">Quick Links</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html">Media</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <section class="footer-col footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Get in Touch</h2>
+        <p><strong>Email:</strong> <a href="mailto:knowledgepie22@gmail.com">knowledgepie22@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918876059434">+91 8876059434</a></p>
+      </section>
+
+      <section class="footer-col footer-map" aria-labelledby="footer-map-title">
+        <h2 id="footer-map-title" class="sr-only">Map</h2>
+        <div class="map-link">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Knowledgepie%20Private%20Limited"
+            target="_blank" rel="noreferrer">Open in Maps</a>
+          <iframe title="Knowledgepie location preview"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=94.420%2C26.620%2C94.560%2C26.780&layer=mapnik"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <div>© Knowledgepie Private Limited</div>
+      <div class="small">Made in India · XEUJ</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

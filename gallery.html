@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery - Knowledgepie</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-gallery">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="media/logo.png" alt="Knowledgepie logo" class="brand-logo">
+        <span class="brand-text">Knowledgepie</span>
+      </a>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle-icon nav-toggle-menu" aria-hidden="true">☰</span>
+        <span class="nav-toggle-icon nav-toggle-close" aria-hidden="true">✕</span>
+      </button>
+      <nav id="siteNav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html">News</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="gallery-page">
+      <div class="container">
+        <h1>Gallery</h1>
+        <div id="galleryGrid" class="gallery-grid" aria-live="polite">
+          <p class="gallery-loading">Loading gallery…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="galleryLightbox" class="gallery-lightbox" hidden aria-hidden="true">
+    <div class="gallery-lightbox-backdrop" data-close-lightbox></div>
+    <div class="gallery-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="galleryLightboxCaption">
+      <button type="button" class="gallery-lightbox-close" data-close-lightbox aria-label="Close image">&times;</button>
+      <button type="button" class="gallery-lightbox-nav gallery-lightbox-prev" id="galleryPrev" aria-label="Previous image">&#10094;</button>
+      <figure class="gallery-lightbox-figure">
+        <img id="galleryLightboxImg" src="" alt="">
+        <figcaption id="galleryLightboxCaption"></figcaption>
+      </figure>
+      <button type="button" class="gallery-lightbox-nav gallery-lightbox-next" id="galleryNext" aria-label="Next image">&#10095;</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-col footer-social" aria-labelledby="footer-connect-title">
+        <h2 id="footer-connect-title">Connect with us</h2>
+        <div class="social-links" aria-label="Social links">
+          <a class="social-link linkedin" href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 20.5H3.56V9.49h3.38V20.5ZM5.25 8a1.96 1.96 0 1 1 0-3.92 1.96 1.96 0 0 1 0 3.92Zm15.25 12.5h-3.37v-5.35c0-1.28-.03-2.93-1.79-2.93-1.8 0-2.08 1.4-2.08 2.84v5.44H9.9V9.49h3.23v1.5h.05c.45-.85 1.55-1.75 3.2-1.75 3.42 0 4.05 2.25 4.05 5.18v6.08Z"/></svg>
+          </a>
+          <a class="social-link x" href="#" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 3H22l-6.78 7.75L23 21h-5.58l-4.37-5.67L7.14 21H4.01l7.28-8.33L1 3h5.73l3.93 5.15L18.9 3Zm-1.95 16h1.72L6.8 4.81H5.96L16.95 19Z"/></svg>
+          </a>
+          <a class="social-link instagram" href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.2A4.8 4.8 0 1 0 12 16.8 4.8 4.8 0 0 0 12 7.2Zm0 7.92A3.12 3.12 0 1 1 12 9.12a3.12 3.12 0 0 1 0 6Zm6.15-8.13a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0ZM20.4 8.4a5.4 5.4 0 0 0-1.47-3.82A5.4 5.4 0 0 0 15.1 3.1C13.91 3.05 10.09 3.05 8.9 3.1A5.4 5.4 0 0 0 5.07 4.58 5.4 5.4 0 0 0 3.6 8.4c-.05 1.19-.05 5.01 0 6.2a5.4 5.4 0 0 0 1.47 3.82A5.4 5.4 0 0 0 8.9 19.9c1.19.05 5.01.05 6.2 0a5.4 5.4 0 0 0 3.83-1.47 5.4 5.4 0 0 0 1.47-3.82c.05-1.19.05-5.01 0-6.2Zm-1.94 7.52a3.83 3.83 0 0 1-2.16 2.16c-1.5.6-5.07.46-6.3.46s-4.8.13-6.3-.46a3.83 3.83 0 0 1-2.16-2.16c-.6-1.5-.46-5.07-.46-6.3s-.13-4.8.46-6.3a3.83 3.83 0 0 1 2.16-2.16c1.5-.6 5.07-.46 6.3-.46s4.8-.13 6.3.46a3.83 3.83 0 0 1 2.16 2.16c.6 1.5.46 5.07.46 6.3s.13 4.8-.46 6.3Z"/></svg>
+          </a>
+        </div>
+      </section>
+
+      <nav class="footer-col footer-links" aria-labelledby="footer-links-title">
+        <h2 id="footer-links-title">Quick Links</h2>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html">Media</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <section class="footer-col footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Get in Touch</h2>
+        <p><strong>Email:</strong> <a href="mailto:knowledgepie22@gmail.com">knowledgepie22@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918876059434">+91 8876059434</a></p>
+      </section>
+
+      <section class="footer-col footer-map" aria-labelledby="footer-map-title">
+        <h2 id="footer-map-title" class="sr-only">Map</h2>
+        <div class="map-link">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Knowledgepie%20Private%20Limited" target="_blank" rel="noreferrer">Open in Maps</a>
+          <iframe title="Knowledgepie location preview"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=94.420%2C26.620%2C94.560%2C26.780&layer=mapnik"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <div>© Knowledgepie Private Limited</div>
+      <div class="small">Made in India · XEUJ</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+
+</html>
