@@ -1,93 +1,119 @@
 {
-  "postsPerPage": 9,
+  "postsPerPage": 5,
   "posts": [
     {
-      "id": "she-inspires-2026",
-      "title": "SHE INSPIRES 2026 – Celebrating Women's Day with Inspiration and Impact",
-      "date": "2026-03-08",
-      "excerpt": "KnowledgePie successfully hosted its first online webinar, SHE INSPIRES 2026, in celebration of International Women's Day—marking an important milestone in community outreach and STEM leadership.",
-      "image": "media/WhatsApp Image 2026-02-01 at 8.10.34 PM (1).jpeg",
+      "id": "news-1",
+      "title": "Director Selected for Prestigious WLSE Global Leadership Program",
+      "date": "2026-05-08",
+      "excerpt": "KnowledgePie is proud to announce that our Director has been selected among 20 distinguished women leaders in STEM for the Women Leadership in STEM Entrepreneurship (WLSE) program—an elite global initiative supported by the Biotechnology Industry Research Assistance Council (BIRAC) under its Grand Challenges India (GCI).",
+      "image": "media/news/image-1.png",
       "longDescription": [
-        "KnowledgePie successfully hosted its first online webinar, SHE INSPIRES 2026, in celebration of International Women's Day—marking an important milestone in community outreach and STEM leadership.",
+        "KnowledgePie is proud to announce that our Director has been selected among 20 distinguished women leaders in STEM for the Women Leadership in STEM Entrepreneurship (WLSE) program—an elite global initiative supported by the Biotechnology Industry Research Assistance Council (BIRAC) under its Grand Challenges India (GCI).",
         "The session brought together leaders, researchers, and students to discuss pathways for women in science and entrepreneurship, with a focus on building inclusive innovation ecosystems in the Northeast and beyond.",
         "Participants shared experiences from academia, industry, and startups—highlighting mentorship, funding access, and the role of regional ecosystems in nurturing the next generation of women innovators."
       ],
       "images": [
         {
-          "src": "media/WhatsApp Image 2026-02-01 at 8.10.34 PM (1).jpeg",
-          "caption": "SHE INSPIRES 2026 webinar session"
+          "src": "media/news/image-2.png",
+          "caption": "Director Selected for Prestigious WLSE Global Leadership Program"
         },
         {
-          "src": "media/Madhulekha Gogoi.png",
-          "caption": "Leadership and mentorship in STEM"
+          "src": "media/news/image-1.png",
+          "caption": "Director Selected for Prestigious WLSE Global Leadership Program"
         }
       ]
     },
     {
-      "id": "forvis-mazars-bio-ride",
+      "id": "news-2",
       "title": "Engaging Interaction with Forvis Mazars LLP under BIRAC BIO RIDE Initiative",
-      "date": "2026-02-20",
-      "excerpt": "KnowledgePie had an insightful interaction with Forvis Mazars LLP as part of the survey conducted under the BIO RIDE scheme, strengthening our engagement with the biotech innovation ecosystem.",
-      "image": "media/WhatsApp Image 2025-12-08 at 12.14.51 PM (1).jpeg",
+      "date": "2026-03-20",
+      "excerpt": "KnowledgePie had an insightful interaction with Forvis Mazars LLP as part of the survey conducted under the BIO RIDE scheme by Biotechnology Industry Research Assistance Council (BIRAC).",
+      "image": "media/news/image-3.png",
       "longDescription": [
-        "KnowledgePie had an insightful interaction with Forvis Mazars LLP as part of the survey conducted under the BIO RIDE scheme, strengthening our engagement with the biotech innovation ecosystem.",
-        "The discussion covered commercialization pathways, regulatory readiness, and how deep-tech startups can scale responsibly while maintaining scientific rigor.",
-        "Insights from the session will help refine our go-to-market planning and financial governance as we advance XEUJ toward clinical validation."
+        "KnowledgePie had an insightful interaction with Forvis Mazars LLP as part of the survey conducted under the BIO RIDE scheme by Biotechnology Industry Research Assistance Council (BIRAC).",
+        "The discussion provided valuable perspectives and meaningful insights, contributing to a deeper understanding of the initiative and its impact."
       ],
       "images": [
-        "media/WhatsApp Image 2025-12-08 at 12.14.51 PM (1).jpeg"
+        "media/news/image-3.png"
       ]
     },
     {
-      "id": "wlse-global-leadership",
-      "title": "Director Selected for Prestigious WLSE Global Leadership Program",
-      "date": "2026-02-10",
-      "excerpt": "KnowledgePie is proud to announce that our Director has been selected among 20 distinguished women leaders in STEM for the WLSE Global Leadership Program.",
-      "image": "media/Madhulekha Gogoi.png",
+      "id": "news-3",
+      "title": "Odyssey – NEC IGNITE Conclave: Recognizing Innovation with Impact",
+      "date": "2026-03-12",
+      "excerpt": "KnowledgePie Pvt. Ltd. is proud to have been honoured with the “Research Translational Innovation to Impact Award” at the Odyssey – NEC IGNITE Conclave.",
+      "image": "media/news/image-4.png",
       "longDescription": [
-        "KnowledgePie is proud to announce that our Director has been selected among 20 distinguished women leaders in STEM for the WLSE Global Leadership Program.",
-        "This recognition highlights sustained commitment to translational research, mentorship, and building world-class med-tech capabilities from Assam.",
-        "The program connects leaders across continents to exchange strategies on scaling science-based ventures and strengthening global partnerships."
+        "KnowledgePie Pvt. Ltd. is proud to have been honoured with the “Research Translational Innovation to Impact Award” at the Odyssey – NEC IGNITE Conclave.",
+        "This recognition marks a significant milestone in our journey, reflecting our commitment to translating scientific research into real-world solutions, particularly in the field of healthcare innovation. It reinforces our mission to bridge the gap between research and impactful implementation.",
+        "We sincerely thank the organizers of the NEC IGNITE Conclave for curating a dynamic platform that celebrates innovation and entrepreneurship across North East India.",
+        "We are deeply grateful for the encouragement and insights shared by distinguished dignitaries, including Bamin Tarang and Abhinav Kumar, whose perspectives continue to inspire our work.",
+        "We also extend our appreciation to the entire NEC IGNITE ecosystem for their continued support and belief in our vision. KnowledgePie remains committed to scaling impactful innovations and contributing meaningfully to the evolving healthcare and startup ecosystem."
       ],
       "images": [
         {
-          "src": "media/Madhulekha Gogoi.png",
+          "src": "media/news/image-4.png",
           "caption": "Dr. Madhulekha Gogoi, Director & Co-founder"
         }
       ]
     },
     {
-      "id": "odyssey-nec-ignite-award",
-      "title": "Odyssey – NEC IGNITE Conclave: Recognizing Innovation with Impact",
-      "date": "2026-01-28",
-      "excerpt": "KnowledgePie Pvt. Ltd. is proud to have been honoured with the Research Translational Innovation to Impact Award at the Odyssey NEC IGNITE Conclave.",
-      "image": "media/NEC IGNITE-IITG.jfif",
+      "id": "news-4",
+      "title": "SHE INSPIRES 2026 – Celebrating Women’s Day with Inspiration and Impact",
+      "date": "2026-03-15",
+      "excerpt": "KnowledgePie successfully hosted its first online webinar, SHE INSPIRES 2026, in celebration of International Women’s Day—marking an important milestone in our journey of fostering learning and empowerment.",
+      "image": "media/news/img5.png",
       "longDescription": [
-        "KnowledgePie Pvt. Ltd. is proud to have been honoured with the Research Translational Innovation to Impact Award at the Odyssey NEC IGNITE Conclave.",
-        "The award acknowledges our work on XEUJ—an iron-based MRI contrast agent developed through a green route—and our progress toward safer, sustainable clinical imaging solutions.",
-        "The conclave brought together innovators, investors, and ecosystem partners committed to translating Northeast India's research into real-world impact."
+        "KnowledgePie successfully hosted its first online webinar, SHE INSPIRES 2026, in celebration of International Women’s Day—marking an important milestone in our journey of fostering learning and empowerment.",
+        "The session brought together an inspiring panel of accomplished women from diverse professional backgrounds, who shared their experiences, insights, and career journeys with the audience. Their stories of dedication, resilience, innovation, and leadership made the event highly engaging and impactful.",
+        "We extend our heartfelt gratitude to our esteemed speakers—Dr. Jashmini Deka, Dr. Kakoli Bhattacharya, Srija Perumalla, Lakhirupa Devi, and Tahmina Mazumder—for generously sharing their valuable perspectives and inspiring all participants.",
+        "At KnowledgePie, we remain committed to creating platforms that encourage learning, innovation, and inclusivity. We hope this session inspired many young minds to pursue their ambitions with confidence and explore new opportunities. We look forward to hosting many more meaningful and empowering discussions in the future"
       ],
       "images": [
         {
-          "src": "media/NEC IGNITE-IITG.jfif",
-          "caption": "Odyssey NEC IGNITE Conclave"
-        },
-        "media/WhatsApp Image 2025-11-25 at 10.37.34 AM (1).jpeg"
+          "src": "media/news/img5.png",
+          "caption": "SHE INSPIRES 2026 – Celebrating Women’s Day with Inspiration and Impact"
+        }
       ]
     },
     {
       "id": "gmch-assam",
       "title": "Advancing Healthcare Innovation at GMCH, Assam",
       "date": "2025-12-15",
-      "excerpt": "KnowledgePie was honoured to participate in a landmark event at Gauhati Medical College & Hospital (GMCH), marking a significant step forward in regional healthcare innovation.",
-      "image": "media/WhatsApp Image 2025-11-25 at 10.37.34 AM (1).jpeg",
+      "excerpt": "KnowledgePie was honoured to participate in a landmark event at Gauhati Medical College & Hospital (GMCH), marking a significant step forward in Assam’s healthcare advancement.",
+      "image": "media/news/img6.png",
       "longDescription": [
-        "KnowledgePie was honoured to participate in a landmark event at Gauhati Medical College & Hospital (GMCH), marking a significant step forward in regional healthcare innovation.",
-        "The engagement opened conversations on collaborative research, clinical validation, and how locally developed imaging technologies can improve patient outcomes across Assam.",
-        "Partnerships with leading medical institutions remain central to our strategy for responsible innovation and clinician-led product development."
+        "KnowledgePie was honoured to participate in a landmark event at Gauhati Medical College & Hospital (GMCH), marking a significant step forward in Assam’s healthcare advancement.",
+        "We extend our sincere gratitude to Hon’ble Chief Minister Shri Himanta Biswa Sarma and Shri Ashok Singhal, Hon’ble Minister of Health & Family Welfare, for their esteemed presence and encouraging interaction. The Hon’ble Chief Minister’s interest in our technology was truly motivating and reaffirmed our commitment to innovation. The event witnessed several key milestones, including the Bhumi Pujan of the new GMCH building, the inauguration of the Mother & Child Health Building, and the unveiling of indigenous healthcare innovations such as the Low-Field MRI prototype and Surgical Robot developed under the Assam Advanced Healthcare Innovation Institute (AAHII), supported by BioNEST IIT Guwahati.",
+        "We sincerely thank BioNEST IIT Guwahati for this opportunity and commend AAHII for its visionary efforts in advancing cutting-edge healthcare technologies in the region. The program also provided a valuable platform to engage with clinicians, students, the public, and fellow startups—fostering meaningful discussions around research, innovation, and future collaborations. KnowledgePie remains committed to contributing to the growth of Assam’s healthcare innovation ecosystem."
       ],
-      "images": []
+      "images": [
+        {
+          "src": "media/news/img7.png",
+          "caption": "Advancing Healthcare Innovation at GMCH, Assam"
+        },
+        {
+          "src": "media/news/img8.png"
+          
+        },
+         {
+          "src": "media/news/img9.png"
+          
+        },
+         {
+          "src": "media/news/image.png"
+          
+        }
+      ]
     },
+
+
+
+
+
+
+
+
     {
       "id": "tie-kolkata-women-2025",
       "title": "Knowledgepie Wins 2nd Runner-Up at TiE Kolkata Women 2025 Finale",
@@ -164,7 +190,7 @@
       "longDescription": [
         "Knowledgepie Private Limited took part in Advantage Assam 2.0 in Guwahati, showcasing green MRI contrast innovation from Assam to a global audience.",
         "The summit connected policymakers, investors, and industry leaders—helping position Northeast India as a hub for biotechnology and advanced healthcare manufacturing.",
-        "Our booth highlighted XEUJ, the green manufacturing route, and the clinical need for safer alternatives to conventional gadolinium-based agents."
+        "Our booth highlighted XEUJ®, the green manufacturing route, and the clinical need for safer alternatives to conventional gadolinium-based agents."
       ],
       "images": [
         "media/WhatsApp Image 2025-11-25 at 10.37.34 AM (1).jpeg",
@@ -186,13 +212,13 @@
     },
     {
       "id": "xeeuj-green-route",
-      "title": "XEUJ: Progress on a Green Route to Iron-Based MRI Contrast",
+      "title": "XEUJ®: Progress on a Green Route to Iron-Based MRI Contrast",
       "date": "2025-01-10",
-      "excerpt": "An update on XEUJ development—our iron-based nanoparticle contrast agent engineered via a sustainable manufacturing route for clinical reliability.",
+      "excerpt": "An update on XEUJ® development—our iron-based nanoparticle contrast agent engineered via a sustainable manufacturing route for clinical reliability.",
       "image": "media/1000171582.jpg",
       "longDescription": [
-        "An update on XEUJ development—our iron-based nanoparticle contrast agent engineered via a sustainable manufacturing route for clinical reliability.",
-        "XEUJ is designed as a gadolinium-free alternative with strong imaging performance, reduced environmental burden, and a manufacturing process aligned with green chemistry principles.",
+        "An update on XEUJ® development—our iron-based nanoparticle contrast agent engineered via a sustainable manufacturing route for clinical reliability.",
+        "XEUJ® is designed as a gadolinium-free alternative with strong imaging performance, reduced environmental burden, and a manufacturing process aligned with green chemistry principles.",
         "Ongoing work focuses on characterization, stability studies, and partnerships that will support eventual clinical evaluation."
       ],
       "images": [
